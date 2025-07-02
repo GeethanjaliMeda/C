@@ -1,4 +1,3 @@
-
 **DAY 2**
 
 After performing save operation to quit vi text editor back to your command prompt to use GCC tool 
@@ -31,7 +30,8 @@ CPU fetches ,decode and executes each instuctions one-by-one
 After CPU executes all the instructions the executable file is completely offloaded from RAM.
 "A program which is loaded intto RAM for execution is known as process."
 
-**DAY 2**  
+**DAY 3**  
+
 Micro controller                                            MicroProcessor
 Low speed <100 MHz                                          High speed > 1GHz - 5GHz
 Single cores                                                Multi cores
