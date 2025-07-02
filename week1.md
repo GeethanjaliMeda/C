@@ -1,5 +1,5 @@
 **DAY 2**
-After performing save operation quit vi text editor back to your command prompt to use GCC tool 
+After performing save operation to quit vi text editor back to your command prompt to use GCC tool 
 To perform quit operation the command is
 :q <enter> (to quit from vi text editor )
 To compile the file in text editor we have to use this command
