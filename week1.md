@@ -48,5 +48,17 @@ For copying and Pasting in vi text editor
 to copy a single line --> yy  (y stands for yanking)
 to copy multiple lines --> nyy (n = number of lines you want to yank)
 to paste a single line --> p
-
+to paste multiple lines --> p
+If you copy more than two lines the screen displays 5 lines yanked in the bottom left hand side as well as pasting lines it displays a message 7 more lines
+To copy a single word --> yw
+to paste it --> p
+If you have to quit the file without saving we can use this command :q!
+A proper quit operation can be performed only when we complete save operation.
+To shift cursor to the last line --> G
+To shift cursor to the first line --> gg
+shift or move cursor to the particular line --> nG,ngg,:n <enter> (n= which line you to move the cursor)
+To delete an entire line --> dd 
+for multiple lines --> ndd (n is how many lines you want to delete)
+NOTE:
+These commands only performed in Command mode.
 
