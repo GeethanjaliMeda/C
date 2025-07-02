@@ -28,7 +28,25 @@ CPU --> Executes instuctions
 CPU fetches ,decode and executes each instuctions one-by-one
 After CPU executes all the instructions the executable file is completely offloaded from RAM.
 "A program which is loaded intto RAM for execution is known as process."
-**DAY 2**  
 
+**DAY 2**  
+Micro controller                                            MicroProcessor
+Low speed <100 MHz                                          High speed > 1GHz - 5GHz
+Single cores                                                Multi cores
+Kell IDE tools                                              Embedded OS / Moblie OS /RTO's
+Memory (Kb's & Mb's)                                        Memory (Mb's & Gb's)
+Single task                                                 Multiple task(Process)
+What is the command we can use to display information about process that running inside your system 
+$ ps -ef here ef is flagss/option.
+To get documentstion for ps
+$ man ps
+$ ps --help
+GUI Application to display process in system monitor 
+To combine save and quit operation (:w + :q ) is
+:x 
+For copying and Pasting in vi text editor
+to copy a single line --> yy  (y stands for yanking)
+to copy multiple lines --> nyy (n = number of lines you want to yank)
+to paste a single line --> p
 
 
