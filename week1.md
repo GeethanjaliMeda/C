@@ -54,6 +54,7 @@ to paste multiple lines --> p
 If you copy more than two lines the screen displays 5 lines yanked in the bottom left hand side as well as pasting lines it displays a message 7 more lines
 To copy a single word --> yw
 to paste it --> p
+for pasting copied line , to paste the below the current line by using p ,to paste above the current line by using P.
 If you have to quit the file without saving we can use this command :q!
 A proper quit operation can be performed only when we complete save operation.
 To shift cursor to the last line --> G
@@ -63,4 +64,40 @@ To delete an entire line --> dd
 for multiple lines --> ndd (n is how many lines you want to delete)
 NOTE:
 These commands only performed in Command mode.
+**SEARCH OPERATIONS**
+Forward slash (/) is used to search a word (pattern) 
+For example if you want to search the word swap in your file you can search it by using /swap.
+To search the word from top to bottom we use n.
+To search the word from bottom to top we use N.
+By default using forward slash it shows us from the top what we are searching .
+If you want to search from bottom you have to use the command ?pattern instead of /pattern.
+/<string name><enter>
+Search operations in vi text editor is case sensitive (lower case letters and uppercase letters are treated differently because they have different ASCII values)
+As soon as you hit the enter it takes cursor to first instance of the string
+Search Forward --> n
+Search Backward --> shift+n/N.
+Search operations can also works for documentation
+Documentation for Vi --> man vi
+                  Gcc --> man gcc
+                  gdb --> man gdb
+Documentation for libraries printf() --> man printf
+                            scanf() --> man scanf
+COMMAND MODE TO INSERT MODE
+i. o - 1.shifts from command mode to insert mode
+       2.Creates an empty line below the current line
+ii.O - 1.Shifts from command mode to insert mode
+       2.Creates an empty line above the current line
+CREATE AND OPEN A FILE
+$ vi file name.c
+i. If the file exists it will open the file
+ii.If the file does not exist it will create a file and open the file
+3 steps to follow to run a program
+step 1: Write a C program
+ $vi filename.c
+step 2: Compilation
+ $gcc sample.c
+By default it creates executable file with the name of a.out 
+We can also create an executale file with different name during compilation 
+
+
 
